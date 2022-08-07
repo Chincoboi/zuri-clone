@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: block;
+}
+
+.header-container{
+    height: 140vh;
+    background-image: url('./image/hero-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.logo-image{
+    margin: auto;
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+.logo-image img{
+    margin: auto;
+}
+/* img{
+    vertical-align: middle;
+    border-style: none;
+} */
+
+.hero{
+    padding: 15px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero h2{
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 35px;
+}
+.hero p{
+    font-size: 16px;
+    color: #555555dc;
+    line-height: 26px;
+    font-weight: 400;
+}
+.hero p a{
+    color: #ff0000;
+    text-decoration: none;
+}
+.call-btn{
+    margin-top: 90px;
+}
+.call-btn a{
+    text-decoration: none;
+}
+.rbtn{
+    padding: 11px 28px;
+    border: 1px solid #ff0000;
+}
+.btn-danger{
+    background-color: #ff0000;
+    color: #fff;
+    margin-right: 24px;
+}
+.btn-danger:hover{
+    background-color: #fff;
+    color: #ff0000;
+}
+.btn-outline-danger{
+    background-color: #fff;
+    color: #ff0000;
+}
+.btn-outline-danger:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+section.tasks{
+    background-color: #fff;
+    overflow: hidden;
+}
+.task-text .top{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ff0000;
+    margin-top: 140px;
+}
+.task-text p.top-mid{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #555555;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+.task-container{
+    max-width: 1240px !important;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.task-card-zuri{
+    position: relative;
+    z-index: 1;
+}
+.task-card{
+    width: 100%;
+    background-color: #fffafa;
+    padding: 61px 47px 82px 36px;
+}
+.task-card img{
+    margin-bottom: 48px;
+}
+img.card-bg-svg-1{
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+.task-card p{
+    font-size: 17px;
+    line-height: 24px;
+    color: #555555;
+}
+.task-card h3 a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ff0000;
+    text-decoration: none;
+}
+img.card-bg-svg-2{
+    width: 90%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+.text-left{
+    text-align: left !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.footer{
+    margin-top: 215px;
+}
+.footer-flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+.footer h3{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #555555;
+}
+.footer a{
+    color: #ff0000;
+    text-decoration: none;
+}
+.info p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #ff0000;
+}
+.social-icons img{
+    width: 20px;
+    margin-right: 5px;
+}
+.text-md-left{
+    align-items: left !important;
+}
+.remark p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #555555;
+    padding-bottom: 95px;
+}
+@media (max-width: 768px){
+.footer-flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3.top{
+    margin-top: 60px !important;
+}
+img.zuri-img{
+    display: block;
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.hero h2{
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+.call-btn{
+    margin-bottom: 50px;
+}
+button.rbtn{
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+}
